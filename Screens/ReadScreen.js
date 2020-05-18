@@ -45,8 +45,8 @@ export default class ReadScreen extends React.Component{
         {this.state.dataSource.map((data,index)=>{           
                 return(
         <View key={index} style={{borderBottomWidth:2}}>
-            <Text>{"Book Id: " + data.Title}</Text>
-            <Text>{"Student Id: " + data.Author}</Text>
+            <Text>{"Title: " + data.Title}</Text>
+            <Text>{"Author: " + data.Author}</Text>
         </View>
             )
          })}
